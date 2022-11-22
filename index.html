@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <!-- Обнуление CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reseter.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <!-- Шрифты -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+        <title>osu!info by Jerops</title>
+        <meta author="Андрей Куленко">
+        <meta description="Всё, что нужно знать для игры в osu! и не только">
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <header class="header-footer">
+            <a class="menu-logo" href="./index.html">
+                <img src="./images/osuinfo-icon.svg" width="100" height="100"/>
+            </a>
+            <nav>
+                <button onclick="show_page('osu')">osu!</button>
+                <button onclick="show_page('taikomania')">Taikomania</button>
+                <button onclick="show_page('about-me')">Обо мне</button>
+            </nav>
+        </header>
+        <div class="page-content-box" id="osu" style="display: flex; opacity: 1;">
+            <div class="text">
+                <h1>osu! - Ритм лишь в клике от тебя!</h1>
+                <div class="para">
+                    <p>
+                        osu! - известная в широких и не очень <span class="pun">кругах</span> игра в жанре ритм,
+                        разработанная австралийским программистом, известным под ником Peppy.
+                    </p>
+                    <p>
+                        Правила игры таковы, что игроку необходимо наводиться курсором на <span class="pun">круги</span>
+                        и нажимать на них в такт музыки. Несмотря на простоту задумки, такой процесс игры очень
+                        занимательный и затягивающий. Неудивительно, что osu! набрала достаточно большую популярность
+                        среди геймеров.
+                    </p>
+                    <p>
+                        Помимо основого режима игры, osu!std, существует ещё три: osu!mania, osu!taiko и osu!ctb. Каждый
+                        режим уникален, отличается геймплеем и требует определённый набор навыков.
+                    </p>
+                </div>
+                <h2>Большое сообщество</h2>
+                <div class="para">
+                    <p>
+                        В osu! играют люди со всего мира. Однако, большая часть игроков в osu!std располагается в России
+                        и США. Большинству нравится делиться достижениями и рекордами. Желание игроков сплочаться между
+                        собой сублимировалось в турнирную деятельность.
+                    </p>
+                </div>
+                <h2>Турниры</h2>
+                <div class="para">
+                    <p>
+                        Чуть ли не каждую неделю игроки собирают призовые фонды и устраивают турниры, в которых может
+                        принять участие каждый! Отбирается широкий <span class="pun">круг</span> людей от 16 до 128
+                        человек и начинается весёлое состязание!
+                    </p>
+                    <p>
+                        Чтобы принять участие, необходимо пройти отборочный этап, который определит, обладает ли игрок
+                        всеми необходимыми навыками игры или ему нужно готовиться больше.</p>
+                    <p>
+                        Большинство турниров проходит по системе двух поражений, как в киберспорте. У участников есть
+                        две попытки продемонстрировать свой <span class="pun">круг</span> навыков. Награда достаётся
+                        тому, кто одерживает победу в суперфинале.
+                    </p>
+                </div>
+                <h3>osu! World Cup</h3>
+                <div class="para">
+                    <p>
+                        Каждый год команда разработчиков устраивает официальный турнир osu! World Cup для каждого из
+                        режимов игры, в который отбираются представители из <span class="pun">круга</span> сильнейших
+                        игроков из каждой страны. В состязании выясняется, какая команда достойна титула чемпиона
+                        OWC. Призовой фонд на 2022 год составляет $5000!
+                    </p>
+                </div>
+                <h3>Турниры от сообщества</h3>
+                <div class="para">
+                    <p>
+                        На <a href="https://osu.ppy.sh/community/forums/55" target="_blank">форуме</a> сами игроки часто
+                        выкладывают информацию о турнирах, которые они проводят — никогда не пропустишь что-то
+                        интересное для себя!  Среди кучи разных объявлений можно найти свой идеальный вариант по этим
+                        критериям: средний рейтинг игроков, продолжительность турнира, призы, условия победы и прочие!
+                    </p>
+                </div>
+                <h2>Маппинг</h2>
+                <div class="para">
+                    <p>
+                        osu! — это игра про музыку! Каждому хочется потыкать <span class="pun">круги</span> под любимую
+                        мелодию в любимой игре, поэтому игроки удовлетворяют спрос друг друга на карты, создавая и
+                        выкладывая их пред всеобщим обозрением.
+                    </p>
+                    <p>
+                        Каждый день создаются новые или обновляются существующие карты в библиотеке, которая насчитывает
+                        тысячи песен разных жанров! Среди них можно найти почти любую известную песню с той сложностью,
+                        которая будет комфортна вам.
+                    </p>
+                    <p>
+                        Если карту полюбит очень много людей, она переходит в раздел "любимые", что открывает ей дорогу в
+                        ретинговые карты — те, проходя которые у вас начисляются очки производительности, местная
+                        оценочная единица рейтинга, которая определяет, какой <span class="pun">круг</span> игроков
+                        играет лучше, а какой хуже.
+                    </p>
+                </div>
+            </div>
+            <div class="media">
+                <div>
+                    <p>Обычный геймплей обычного игрока!</p>
+                    <video width="352" height="198" autoplay muted loop>
+                        <source src="https://dl2.issou.best/ordr/videos/render729857.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div>
+                    <p>Топ 1 игрок
+                        <a href="https://osu.ppy.sh/users/7562902" target="_blank">mrekk</a> ставит впечатляющий рекорд
+                        в osu!.
+                    </p>
+                    <iframe width="352"
+                            height="198"
+                            src="https://www.youtube.com/embed/idGs0My9n7Y"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer;
+                                   autoplay;
+                                   clipboard-write;
+                                   encrypted-media;
+                                   gyroscope;
+                                   picture-in-picture">
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Расслабляющий рекорд от
+                        <a href="https://osu.ppy.sh/users/5846289" target="_blank">Kei821</a> в osu!taiko.
+                    </p>
+                    <iframe width="352"
+                            height="198"
+                            src="https://www.youtube.com/embed/Uc0-Xiftjjs"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer;
+                                   autoplay;
+                                   clipboard-write;
+                                   encrypted-media;
+                                   gyroscope;
+                                   picture-in-picture">
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        <a href="https://osu.ppy.sh/users/758406" target="_blank">dressurf</a> берёт топ 1 в osu!mania <br/>
+                        (но потом снова становится вторым)
+                    </p>
+                    <iframe width="352"
+                            height="198"
+                            src="https://www.youtube.com/embed/Z02M0XxZQ1k"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer;
+                                   autoplay;
+                                   clipboard-write;
+                                   encrypted-media;
+                                   gyroscope;
+                                   picture-in-picture">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-box" id="taikomania" style="display: none; opacity: 0;">
+            <div class="text">
+                <h2>Taikomania - мы играем в osu!taiko и osu!mania!</h2>
+                <div class="para">
+                    <p>
+                        Мы небольшое сообщество людей, по-случайности собравшиеся с одной целью - разделить проводимое
+                        время в игре с весельем! Ото дня в день мы играем в многопользовательский режим и делимся
+                        впечатлениями от игры и не только!
+                    </p>
+                    <p>
+                        Каждый из нас занимается чем-то интересным, поэтому было бы неплохо рассказать о каждом
+                        участнике Тайкомании.
+                    </p>
+                </div>
+                <h3>Jerops</h3>
+                <div class="para">
+                    <p>
+                        Это я! Судя по моему рейтингу, я довольно неплохо играю, но мне больше нравится заниматься
+                        программированием и созданием этого сайта, так что больше я о себе сказать не могу!
+                    </p>
+                </div>
+                <h3>HKC</h3>
+                <div class="para">
+                    <p>
+                        Умеет рисовать. Однажды она приняла участие в конкурсе рисунков от создателей игры и
+                        получила там призовое место. Её рисунок стал одним из тех, что можно увидеть на главном экране
+                        игры. Также пробует себя в создании карт, и у неё хорошо получается.
+                    </p>
+                </div>
+                <h3>LonBertZend</h3>
+                <div class="para">
+                    <p>
+                        Вероятнее всего, играет лучше всех, но пока весь его потенциал не раскрыт. Занимает второе место
+                        лучших игроков Украины в osu!mania, и то, как он играет сложные карты словами описать почти
+                        невозможно!
+                    </p>
+                </div>
+                <h3>BiXiQT</h3>
+                <div class="para">
+                    <p>
+                        Отлично умеет делать карты. У него на счету уже очень много карт, которые очень мало кто
+                        опробовал, но я очень надеюсь, что хотя бы одна из созданных им карт станет рейтинговой.
+                    </p>
+                </div>
+                <h2>Присоединяйся!</h2>
+                <div class="para">
+                    <p>
+                        Если понравилось, чем мы занимаемся в Тайкомании, можешь без проблем перейти на наш сервер в
+                        <a href="https://discord.gg/CDFNKfNd" target="_blank">Discord</a> и поиграть с нами!
+                    </p>
+                </div>
+            </div>
+            <div class="media">
+                <p>Игроки в osu!taiko</p>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=BiXiQT&mode=taiko&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="BiXiQT"/>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=HKC%2D&mode=taiko&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="HKC"/>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=Jerops&mode=taiko&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="Jerops"/>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=LonBertZend&mode=taiko&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="LonBertZend"/>
+                <hr style="margin-top: 10px;"/>
+                <p>Игроки в osu!mania</p>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=HKC%2D&mode=mania&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="HKC"/>
+                <img width="400" height="140" src="https://osu-sig.vercel.app/card?user=LonBertZend&mode=mania&lang=en&round_avatar=true&animation=true&hue=240&mini=true" alt="LonBertZend"/>
+            </div>
+        </div>
+        <div class="page-content-box" id="about-me" style="display: none; opacity: 0">
+            <div class="text">
+                <h2>Обо мне!</h2>
+                <div class="para">
+                    <p>
+                        Я начал играть в osu! с 2017 года. Мне нравилось играть в стандартный режим: ставил раздичные
+                        рекорды, делился с друзьями, сыграл один
+                        <a href="https://docs.google.com/spreadsheets/d/1mTktolddybuyTlAVY1S38n5x6P-mkpcVpP8CcfNOXx8/edit" target="_blank">турнир</a>,
+                        но потом мне надоело, и я ушёл играть в Тайко.  В этом режиме играть проще, потому что не нужно
+                        двигать мышкой по столу или пером по планшету — у тебя лишь две руки, и ты ими стучишь по
+                        кнопкам, раздражая соседей.
+                    </p>
+                    <p>
+                        Совсем недавно я попал в первую сотню лучших игроков России, чем я немного горжусь, но мне ещё
+                        есть куда стремиться. Также благодаря своим навыкам я познакомился с замечательными людьми,
+                        которые стали моими друзьями!
+                    </p>
+                    <p>
+                        Если кому интересно, я играю на механической клавиатуре. Благодаря особенностям переключателей
+                        нажимать на клавиши — сплошное удовольствие! Поэтому каждому рекомендую попробовать, но это
+                        совсем не значит, что на мембранной клавиатуре нельзя играть лучше всех!
+                    </p>
+                    <p>
+                        Мне захотелось сделать сайт, на котором я смогу рассказать о любимой игре, которую я не могу
+                        бросить (а иногда хотелось бы...). Она одновременно и весёлая, и грустная — олицитворяет
+                        биполярное расстройство одним словом.  Это мой первый сайт, и мне понравилось его создавать. Я
+                        узнал много нового и научился применять полученные знания на практике. Надеюсь, вам нравится!
+                    </p>
+                </div>
+            </div>
+            <div class="media">
+                <div>
+                    <img width="500" height="320" src="https://osu-sig.vercel.app/card?user=Jerops&mode=taiko&lang=en&round_avatar=true&animation=true&hue=240" alt="Jerops"/>
+                </div>
+            </div>
+        </div>
+        <footer class="header-footer">
+            <p>
+                Сайт osu!info создан специально для проекта К.О.Д.. <br/>
+                Андрей "Jerops" Куленко, 2022.
+            </p>
+            <div class="links">
+                <a href="https://vk.com/jerops1337" target="_blank">Мой VK</a>
+                <a href="https://discord.com/users/262551759463907329" target="_blank">Мой Discord</a>
+                <a href="https://t.me/Jeropese" target="_blank">Мой Telegram</a>
+            </div>
+        </footer>
+    </body>
+</html>
