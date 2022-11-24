@@ -166,8 +166,7 @@ h3::before {
     background-color: #3c2c51;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 15px;
     padding: 10px;
     font-size: 80%;
