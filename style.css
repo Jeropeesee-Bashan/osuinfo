@@ -66,11 +66,25 @@ button:active {
 
 .shown-page {
   display: flex;
-  animation: appear 1s;
+  animation: appear 0.5s;
+}
+
+.disappearing-page {
+  display: flex;
+  animation: disappear 0.5s;
 }
 
 .hidden-page {
   display: none;
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes appear {
